@@ -1,6 +1,6 @@
 const arr = [10, 12, 15, 19, 30];
 
-//Standard filter function
+//Regular filter function
 const filteredArray = arr.filter(element => element % 2);
 console.log(filteredArray);
 
