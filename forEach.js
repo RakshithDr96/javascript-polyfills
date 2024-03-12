@@ -1,6 +1,6 @@
 const arr = [10, 12, 15, 19, 30];
 
-//Standard forEach function
+//regular forEach function
 arr.forEach(element => console.log(element));
 
 Array.prototype.myForEach = function(callback){
