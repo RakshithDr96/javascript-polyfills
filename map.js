@@ -1,7 +1,7 @@
 const arr = [10, 12, 15, 19, 30];
 
 //Standard map function
-const mapArray = arr.map(element => element * 2);
+const mapArray = arr.map(element => element * 3);
 console.log(mapArray);
 
 Array.prototype.myMap = function(callback){
@@ -12,5 +12,5 @@ Array.prototype.myMap = function(callback){
     return result;
 }
 
-const mapArrayFromPolyfill = arr.myMap(element => element * 2);
+const mapArrayFromPolyfill = arr.myMap(element => element * 3);
 console.log(mapArrayFromPolyfill);
