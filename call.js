@@ -5,7 +5,7 @@ function printPersonInfo(){
 const person1 = {
     name: "Rakshit",
     age: 28,
-    city: "Bangalore"
+    city: "Bengaluru"
 }
 
 printPersonInfo.call(person1);

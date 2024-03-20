@@ -1,4 +1,4 @@
-const arr = [10, 12, 15, 19, 30];
+const arr = [10, 12, 15, 19, 31];
 
 //Standard filter function
 const reducedValue = arr.reduce((acc, cur) => {
