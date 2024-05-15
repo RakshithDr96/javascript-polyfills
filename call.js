@@ -12,7 +12,7 @@ printPersonInfo.call(person1);
 
 Function.prototype.myCall = function(obj={}, ...args){
     if(typeof this !== "function"){
-        throw new Error("Not callable");
+        throw new Error("Not a Function");
     }
     obj.fn = this;
     obj.fn(...args);
