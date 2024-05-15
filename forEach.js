@@ -1,4 +1,4 @@
-const arr = [10, 12, 15, 19, 30];
+const arr = [10, 12, 15, 19, 340];
 
 //regular forEach function
 arr.forEach(element => console.log(element));
