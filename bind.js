@@ -3,7 +3,7 @@ function printPersonInfo(age, city){
 }
 
 const person1 = {
-    name: "Rakshit",
+    name: "Rakshit Shetty",
 }
 
 const newFunc = printPersonInfo.bind(person1, 28);
