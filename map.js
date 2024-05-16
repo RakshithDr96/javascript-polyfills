@@ -1,4 +1,4 @@
-const arr = [10, 12, 15, 19, 30];
+const arr = [10, 12, 15, 88, 30];
 
 //Standard map function
 const mapArray = arr.map(element => element * 3);
