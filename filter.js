@@ -1,4 +1,4 @@
-const arr = [10, 12, 17, 19, 30];
+const arr = [10, 22, 17, 19, 30];
 
 //Regular filter function
 const filteredArray = arr.filter(element => element % 2);
